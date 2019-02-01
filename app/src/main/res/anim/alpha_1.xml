@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:repeatMode="restart">
+
+    <!--fillAfter 表示动画结束后view是否停留在结束位置-->
+    <!--repeatMode 重复类型 reverse表示倒序回放，restart表示从头播放-->
+    <!--interpolator 动画插值器 即动画的变化速率 linear_interpolator 匀速 accelerate_interpolator 加速  decelerate_interpolator减速-->
+
+    <alpha
+        android:fromAlpha="1.0"
+        android:repeatCount="0"
+        android:toAlpha="0.0" />
+
+    <!--alpha 透明度变化1.0 不透明 0全透明-->
+    <!--repeatCount 重复次数-->
+
+
+</set>
