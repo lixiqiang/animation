@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.text_two:
-//                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("ivgoal.vchat.50://vliao"));
-//                startActivity(intent1);
                 break;
             case R.id.text_three:
                 intent.setClass(this, PropertyActivity.class);
